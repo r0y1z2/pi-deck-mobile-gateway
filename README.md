@@ -1,3 +1,5 @@
+[English](README.md) | [简体中文](README.zh-CN.md) | [日本語](README.ja.md)
+
 # Pi Deck Mobile Gateway
 
 Pi Deck Mobile Gateway is a private, mobile-first web gateway for supervising
@@ -45,12 +47,12 @@ The compatibility behavior is covered by regression tests in
 
 Do not add inbound firewall rules for ports `8765` or `31415`.
 
-## 交给 AI 安装
+## Install with one AI prompt
 
-把下面这一句话完整交给 AI coding agent：
+Give the following single prompt, in full, to an AI coding agent:
 
 ```text
-请在这台 Windows 新电脑上从 https://github.com/r0y1z2/pi-deck-mobile-gateway 克隆项目，优先使用仓库现有的 scripts/pideck-mobile 脚本完成 PiDeck Mobile Gateway 的安装和启动、配置通过 Tailscale 从手机访问，完成后运行仓库提供的健康检查并告诉我手机应打开的访问地址；不得代替我登录 GitHub 或 Tailscale，不得输出或保存任何密钥，不得覆盖已有的 Pi/PiDeck 数据，遇到需要账号登录、管理员权限或发现数据冲突时必须暂停并请求我确认。
+On this new Windows PC, clone https://github.com/r0y1z2/pi-deck-mobile-gateway, use the existing scripts/pideck-mobile scripts wherever possible to install and start PiDeck Mobile Gateway, configure phone access through Tailscale, then run the repository's health check and tell me the address to open on my phone; do not log in to GitHub or Tailscale on my behalf, do not reveal or save any keys, do not overwrite existing Pi/PiDeck data, and pause to ask for my confirmation if account login, administrator privileges, or a data conflict is encountered.
 ```
 
 ## Install
